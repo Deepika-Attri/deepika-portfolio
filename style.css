@@ -432,10 +432,28 @@ section h2 {
    CONTACT
 ========================= */
 
-#contact p {
-    max-width: 650px;
-    color: #a6a6b1;
-    font-size: 0.95rem;
+/* CONTACT BUTTONS */
+
+#contact .buttons a {
+    border-color: #292933;
+    color: #b8b8c2;
+    background: transparent;
+}
+
+#contact .buttons a:first-child {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+#contact .buttons a:hover {
+    border-color: #ffffff;
+    color: #ffffff;
+    background: transparent;
+}
+
+#contact .buttons a:first-child:hover {
+    background: #ffffff;
+    color: #0b0b0f;
 }
 
 
