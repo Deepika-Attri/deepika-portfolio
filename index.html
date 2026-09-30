@@ -1,174 +1,300 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deepika Attri | AI / LLM Engineer</title>
-    <link rel="icon" type="image/png" href="portfolio.png">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <div class="logo">Deepika Attri</div>
-            <div class="nav-links">
-                <a href="#projects">Projects</a>
-                <a href="#skills">Skills</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
+<header>
+    <nav>
+        <div class="logo">Deepika Attri</div>
+        <div class="nav-links">
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero">
+        <p class="tag">AI / LLM ENGINEER</p>
+        <h1>Building practical AI applications with Generative AI & RAG.</h1>
+        <p class="intro">
+            AI-focused developer with 4+ years of mobile development experience,
+            now specializing in Generative AI, LLM applications, RAG, and Python.
+        </p>
+
+        <div class="buttons">
+            <a href="https://github.com/Deepika-Attri" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/deepikaattri5/" target="_blank" class="secondary">LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <p class="section-label">PROJECTS</p>
+        <h2>Things I've built</h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <h3>RAG Document Explainer</h3>
+                <p>Ask questions about PDF documents and receive grounded answers with relevant page references.</p>
+                <span>Python · RAG · FAISS · Gemini</span>
+
+                <div class="project-links">
+                    <a href="https://github.com/Deepika-Attri/rag-document-explainer" target="_blank">GitHub ↗</a>
+                    <a href="https://rag-document-explainer-1.streamlit.app/" target="_blank">Live Demo ↗</a>
+                </div>
             </div>
-        </nav>
-    </header>
 
-    <main>
+            <div class="project-card">
+                <h3>AI Notes Generator</h3>
+                <p>Generate summaries, flashcards and quizzes from uploaded PDF documents using Gemini.</p>
+                <span>Python · Gemini · Streamlit · SQLite</span>
 
-        <section class="hero">
-            <p class="tag">AI / LLM ENGINEER</p>
-
-            <h1>Building practical AI applications with Generative AI & RAG.</h1>
-
-            <p class="intro">
-                AI-focused developer with 4+ years of mobile development experience,
-                now specializing in Generative AI, LLM applications, and Python.
-            </p>
-
-            <div class="buttons">
-                <a href="https://github.com/Deepika-Attri" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/deepikaattri5/" target="_blank" class="secondary">LinkedIn</a>
+                <div class="project-links">
+                    <a href="https://github.com/Deepika-Attri/ai-notes-generator" target="_blank">GitHub ↗</a>
+                    <a href="https://ai-notes-generator-1.streamlit.app/" target="_blank">Live Demo ↗</a>
+                </div>
             </div>
-        </section>
 
+            <div class="project-card">
+                <h3>Customer Support Chatbot</h3>
+                <p>A lightweight support chatbot using intent detection and a structured knowledge base.</p>
+                <span>Python · NLP · Streamlit · JSON</span>
 
-        <section id="projects">
-            <p class="section-label">PROJECTS</p>
-            <h2>Things I've built</h2>
-
-            <div class="project-grid">
-
-                <div class="project-card">
-                    <h3>RAG Document Explainer</h3>
-                    <p>
-                        Ask questions about PDF documents and receive grounded
-                        answers with relevant page references.
-                    </p>
-                    <span>Python · RAG · FAISS · Gemini</span>
-                    <div class="project-links">
-                        <a href="https://github.com/Deepika-Attri/rag-document-explainer" target="_blank">GitHub ↗</a>
-                        <a href="#" target="_blank">Live Demo ↗</a>
-                    </div>
+                <div class="project-links">
+                    <a href="https://github.com/Deepika-Attri/customer-support-chatbot" target="_blank">GitHub ↗</a>
+                    <a href="https://customer-support-chatbot-2.streamlit.app/" target="_blank">Live Demo ↗</a>
                 </div>
-
-                <div class="project-card">
-                    <h3>AI Notes Generator</h3>
-                    <p>
-                        Generate summaries, flashcards and quizzes from uploaded
-                        PDF documents using Gemini.
-                    </p>
-                    <span>Python · Gemini · Streamlit · SQLite</span>
-                    <div class="project-links">
-                        <a href="https://github.com/Deepika-Attri/ai-notes-generator" target="_blank">GitHub ↗</a>
-                        <a href="https://ai-notes-generator-1.streamlit.app/" target="_blank">Live Demo ↗</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <h3>Customer Support Chatbot</h3>
-                    <p>
-                        A lightweight support chatbot using intent detection and
-                        a structured knowledge base.
-                    </p>
-                    <span>Python · NLP · Streamlit · JSON</span>
-                    <div class="project-links">
-                        <a href="https://github.com/Deepika-Attri/customer-support-chatbot" target="_blank">GitHub ↗</a>
-                        <a href="https://customer-support-chatbot-2.streamlit.app/" target="_blank">Live Demo ↗</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <h3>Resume Match AI</h3>
-                    <p>
-                        AI-powered resume and job-description matching project
-                        focused on evidence-based analysis.
-                    </p>
-                    <span>Python · LLM · RAG</span>
-                    <div class="project-links">
-                        <a href="https://github.com/Deepika-Attri/resume-match-ai" target="_blank">GitHub ↗</a>
-                        <a href="https://resume-match-ai-01.streamlit.app/" target="_blank">Live Demo ↗</a>
-                    </div>
-                </div>
-
             </div>
-        </section>
 
+            <div class="project-card">
+                <h3>Resume Match AI</h3>
+                <p>AI-powered resume and job-description matching project focused on evidence-based analysis.</p>
+                <span>Python · LLM · RAG</span>
 
-        <section id="skills">
-            <p class="section-label">SKILLS</p>
-            <h2>Technical toolkit</h2>
+                <div class="project-links">
+                    <a href="https://github.com/Deepika-Attri/resume-match-ai" target="_blank">GitHub ↗</a>
+                    <a href="https://resume-match-ai-01.streamlit.app/" target="_blank">Live Demo ↗</a>
+                </div>
+            </div>
 
-            <div class="skills">
-                <span>Python</span>
-                <span>Generative AI</span>
-                <span>LLMs</span>
-                <span>RAG</span>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <p class="section-label">EXPERIENCE</p>
+        <h2>My experience</h2>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <div>
+                    <h3>Career Break</h3>
+                    <p>AI/LLM Learning and Skill Development</p>
+                </div>
+                <span>November 2023 – Present</span>
+            </div>
+
+            <ul>
+                <li>Took a structured break for personal and professional development before transitioning into self-directed AI/ML learning.</li>
+                <li>Completed Python and AI certifications in Generative AI, retrieval, and agentic AI concepts, and built practical AI projects using LLMs and RAG.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <div>
+                    <h3>MobileFirstApplications Pvt. Ltd.</h3>
+                    <p>Android Developer</p>
+                </div>
+                <span>February 2022 – October 2023</span>
+            </div>
+
+            <ul>
+                <li>Implemented Clean Architecture and integrated GraphQL APIs via Apollo, improving scalability by 25%, maintainability by 40%, and data retrieval efficiency by 30%.</li>
+                <li>Engineered responsive UI with Jetpack Compose and applied CI/CD to streamline releases.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <div>
+                    <h3>Dharmani Apps and Software Pvt. Ltd.</h3>
+                    <p>Android Developer</p>
+                </div>
+                <span>February 2020 – February 2022</span>
+            </div>
+
+            <ul>
+                <li>Built and maintained app features in Java/Kotlin using MVVM and MVP patterns, improving codebase efficiency by 20%.</li>
+                <li>Integrated Google, Facebook, and Instagram login/sharing, and managed Play Store submissions with 100% compliance.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <div>
+                    <h3>Omninos Solutions</h3>
+                    <p>Android Developer Intern</p>
+                </div>
+                <span>January 2019 – June 2019</span>
+            </div>
+
+            <ul>
+                <li>Developed and tested Android application features in Android Studio, resolving bugs across mobile app development cycles.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <p class="section-label">SKILLS</p>
+        <h2>Technical skills</h2>
+
+        <div class="skills-group">
+            <h3>AI / LLM Engineering</h3>
+            <div class="skill-tags">
+                <span>LLM APIs</span>
+                <span>Google Gemini</span>
                 <span>Prompt Engineering</span>
+                <span>RAG</span>
+                <span>LLM Applications</span>
+                <span>Embeddings</span>
+                <span>Semantic Search</span>
                 <span>FAISS</span>
                 <span>Sentence Transformers</span>
-                <span>Google Gemini</span>
+                <span>Structured Outputs</span>
+                <span>Pydantic</span>
+            </div>
+        </div>
+
+        <div class="skills-group">
+            <h3>Programming Languages</h3>
+            <div class="skill-tags">
+                <span>Python</span>
+                <span>Kotlin</span>
+                <span>Java</span>
+            </div>
+        </div>
+
+        <div class="skills-group">
+            <h3>Frameworks & Libraries</h3>
+            <div class="skill-tags">
                 <span>Streamlit</span>
                 <span>PyMuPDF</span>
                 <span>SQLite</span>
-                <span>Git & GitHub</span>
             </div>
-        </section>
+        </div>
 
+        <div class="skills-group">
+            <h3>APIs & Engineering Tools</h3>
+            <div class="skill-tags">
+                <span>REST APIs</span>
+                <span>GraphQL</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>CI/CD</span>
+            </div>
+        </div>
 
-        <section id="about">
-            <p class="section-label">ABOUT</p>
-            <h2>A little about me</h2>
+        <div class="skills-group">
+            <h3>Mobile Development</h3>
+            <div class="skill-tags">
+                <span>Jetpack Compose</span>
+                <span>MVVM</span>
+                <span>MVP</span>
+                <span>Clean Architecture</span>
+                <span>Retrofit</span>
+                <span>Hilt</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION & CERTIFICATIONS -->
+    <section id="education">
+        <p class="section-label">EDUCATION & CERTIFICATIONS</p>
+        <h2>Education</h2>
+
+        <div class="education-item">
+            <h3>AP Goyal Shimla University</h3>
+            <p>Shimla, India</p>
+            <p>Bachelor of Engineering in Computer Science</p>
+            <span>August 2015 – August 2019</span>
+        </div>
+
+        <div class="certification-item">
+            <h3>Certifications</h3>
 
             <p>
-                I have 4+ years of professional experience in mobile development
-                and am now transitioning into AI / LLM engineering. I build
-                practical AI applications involving Generative AI, RAG,
-                document processing and LLM APIs.
+                <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=CA99FFBD76E253A5A9CD2DEAF31E7550E6136137D7AD40BA1C5C779E6E00E46B" target="_blank">
+                    Oracle Agentic AI Certified Foundations Associate ↗
+                </a>
             </p>
-        </section>
 
+            <p>
+                <a href="https://drive.google.com/file/d/1PoZmRT7J1PtZxxAe3gkygAVHoRWEamcq/view?usp=sharing" target="_blank">
+                    Python – Kaggle ↗
+                </a>
+            </p>
 
-        <section>
-            <p class="section-label">CERTIFICATION</p>
-            <h2>Oracle</h2>
+            <p>
+                <a href="https://drive.google.com/file/d/1u5hStGG-NU7AyuyYS8ikRvru1UBAEA7Q/view?usp=sharing" target="_blank">
+                    Python – Scaler ↗
+                </a>
+            </p>
+        </div>
+    </section>
 
-            <p>Agentic AI Certified Foundations Associate</p>
+    <!-- ABOUT -->
+    <section id="about">
+        <p class="section-label">ABOUT</p>
+        <h2>A little about me</h2>
 
-            <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=CA99FFBD76E253A5A9CD2DEAF31E7550E6136137D7AD40BA1C5C779E6E00E46B"
-               target="_blank">
-                Verify Credential ↗
-            </a>
-        </section>
+        <p class="about-text">
+            I am an AI-focused developer with 4+ years of professional mobile
+            development experience. After working as an Android developer, I
+            transitioned toward AI and LLM engineering, focusing on Generative
+            AI, RAG, Python, and practical LLM-powered applications.
+        </p>
+    </section>
 
+    <!-- CONTACT -->
+    <section id="contact">
+        <p class="section-label">CONTACT</p>
+        <h2>Let's connect</h2>
 
-        <section id="contact" class="contact">
-            <p class="section-label">CONTACT</p>
-            <h2>Let's connect.</h2>
+        <p>
+            Interested in AI, LLM applications, or building practical AI
+            solutions? Feel free to connect with me.
+        </p>
 
-            <p>Interested in AI, GenAI and LLM engineering opportunities.</p>
+        <div class="buttons">
+            <a href="https://www.linkedin.com/in/deepikaattri5/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Deepika-Attri" target="_blank" class="secondary">GitHub</a>
+        </div>
+    </section>
 
-            <div class="buttons">
-                <a href="mailto:deepika89883@gmail.com">Email Me</a>
-                <a href="https://www.linkedin.com/in/deepikaattri5/" target="_blank" class="secondary">LinkedIn</a>
-            </div>
-        </section>
+</main>
 
-    </main>
+<footer>
+    © 2026 Deepika Attri
+</footer>
 
-    <footer>
-        © 2026 Deepika Attri
-    </footer>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
+```
